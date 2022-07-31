@@ -2,6 +2,13 @@
 
 > 使用該專案 Gulp 時，就可以不用使用其他編譯工具編譯 SCSS 或是 JavaScript 囉。
 
+git init       //若已經初始化過就可以不用輸入
+git add .
+git commit -m "first commit"
+git remote add origin [GitHub Repositories Url]
+git branch -M main
+git push -u origin main      // 僅限第一次輸入，往後只需要輸入 git push
+
 ## 指令列表
 
 - `gulp` - 執行開發模式(會開啟模擬瀏覽器並監聽相關檔案)
@@ -37,7 +44,7 @@
 
 ### 注意事項
 
-`assets` 底下的資料夾名稱建議不要任意修改，例如：`stlye` 改成 `styles` 又或者是 `scss` 等非原始資料夾名稱。
+`assets` 底下的資料夾名稱建議不要任意修改，例如：`style` 改成 `styles` 又或者是 `scss` 等非原始資料夾名稱。
 
 最主要原因是 Gulp 預設是監聽 `style`、`js`、 `images` 這幾個資料夾路徑底下的檔案，因此若任意修改名稱將可能導致 Gulp 的監聽功能失效或其他不可預期之問題發生。
 
@@ -55,7 +62,7 @@ Gulp 的自動更新行為是必須持續開著終端機的，因此若關閉終
 
 除此之外 Gulp 本身有支援模擬伺服器，因此不用再次使用一些模擬伺服器的套件，例如：`Preview on Web Server` 套件等。
 
-## 部署 gh-pagse 流程說明
+## 部署 gh-pages 流程說明
 
 部署前請務必先將該 Gulp 原始碼上傳到 GitHub Repositories 也就是初始化 GitHub，因此通常第一步驟會輸入以下指令
 
@@ -64,7 +71,7 @@ git init # 若已經初始化過就可以不用輸入
 git add .
 git commit -m 'first commit'
 git remote add origin [GitHub Repositories Url]
-git push -u origin master // 僅限第一次輸入，往後只需要輸入 git push
+git push -u origin main // 僅限第一次輸入，往後只需要輸入 git push
 ```
 
 當將 Gulp 原始碼初次部署到 GitHub 之後就可以輸入 `gulp build` 進入生產模式，當生產完畢之後接下來只需要輸入 `gulp deploy` 即可完成 GitHub Pages 部署。

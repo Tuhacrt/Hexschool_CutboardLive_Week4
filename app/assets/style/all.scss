@@ -1,23 +1,15 @@
-$color: #00cc99;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap");
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import "config/variable";
+@import "config/reset";
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import "helper/flex";
+@import "helper/base";
+@import "helper/mixin";
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+@import "layout/header";
+@import "layout/footer";
+
+@import "page/index";
+@import "page/location";
