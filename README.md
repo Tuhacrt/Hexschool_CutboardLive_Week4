@@ -1,13 +1,13 @@
-# 網頁切版直播班 Gulp 範例
+# 網頁切版直播班 第四週任務
 
-> 使用該專案 Gulp 時，就可以不用使用其他編譯工具編譯 SCSS 或是 JavaScript 囉。
+> 使用 gulp 需要使用的指令
 
-git init       //若已經初始化過就可以不用輸入
-git add .
-git commit -m "first commit"
-git remote add origin [GitHub Repositories Url]
-git branch -M main
-git push -u origin main      // 僅限第一次輸入，往後只需要輸入 git push
+- `git init`       //若已經初始化過就可以不用輸入
+- `git add` .
+- `git commit -m "first commit"`
+- `git remote set-url origin https://github.com/Tuhacrt/Hexschool_CutboardLive_Week4.git`
+- `git branch -M main`
+- `git push -u origin main`      // 僅限第一次輸入，往後只需要輸入 git push
 
 ## 指令列表
 
@@ -135,3 +135,20 @@ A: 建議可以查看一下自己的相關版本，以下是專案開發者的�
 - [使用 Gulp 進行網頁前端自動化](https://courses.hexschool.com/p/gulp)
 - [這是在講 Gulp 不是飲料是任務自動化工具這件事](https://hsiangfeng.github.io/tags/%E9%80%99%E6%98%AF%E5%9C%A8%E8%AC%9B-Gulp-%E4%B8%8D%E6%98%AF%E9%A3%B2%E6%96%99%E6%98%AF%E4%BB%BB%E5%8B%99%E8%87%AA%E5%8B%95%E5%8C%96%E5%B7%A5%E5%85%B7%E9%80%99%E4%BB%B6%E4%BA%8B/page/2/)
 - [試著把切版專案升級到 gulp4.0 吧](https://ithelp.ithome.com.tw/users/20104132/ironman/2921)
+
+
+If you have a local clone, you can update it by running the following commands.
+
+git branch -m main main1
+git fetch origin
+git branch -u origin/main1 main1
+git remote set-head origin -a
+
+
+git init 
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Tuhacrt/gulpTest.git
+git remote url-set origin https://github.com/Tuhacrt/
+Hexschool_CutboardLive_Week4.git
+git push -u origin master 

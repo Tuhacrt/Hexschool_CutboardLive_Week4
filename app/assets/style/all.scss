@@ -4,6 +4,11 @@
 @import "config/variable";
 @import "config/reset";
 
+@import "pure/buttons/buttons-core.css";
+@import "pure/buttons/buttons.css";
+@import "pure/forms/forms-r.css";
+@import "pure/forms/forms.css";
+
 @import "helper/flex";
 @import "helper/base";
 @import "helper/mixin";

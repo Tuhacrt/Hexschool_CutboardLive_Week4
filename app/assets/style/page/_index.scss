@@ -1,21 +1,37 @@
-.header {
-  height: 200px;
-  background-color: #00cc99;
+.container {
+  max-width: 1296px;
+  &-contactUs {
+    max-width: 636px;
+  }
 }
 
-.footer {
-  height: 200px;
-  background-color: black;
+.banner {
+  background-size: cover;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
+.feature {
+  img {
+    width: 100px;
+  }
+  &-list-card {
+    width: 25%;
+  }
+}
+
+.classic {
+  &-list-card {
+    width: 33.3%;
+  }
+}
+
+.co-branding {
+  background-size: cover;
+}
+
+.recommendation {
+  &-list-card {
+    width: 25%;
+    border-radius: 1%;
+    box-shadow: 0px 2px 6px #000000;
   }
 }
