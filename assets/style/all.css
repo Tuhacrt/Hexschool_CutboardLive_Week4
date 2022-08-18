@@ -702,6 +702,10 @@ table {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
+.fxw-nw {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+
 .fxd-c {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -734,39 +738,81 @@ body {
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Microsoft JhengHei", "Segoe UI", Roboto, "Noto Sans TC", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
+.container {
+  max-width: 1296px; }
+  @media (max-width: 991.98px) {
+    .container {
+      max-width: 696px; } }
+
 .logo img {
   width: 80px; }
 
 nav li a {
   padding: 25px 0; }
 
+.link a {
+  white-space: nowrap; }
+
 .social img {
   width: 48px; }
 
-.container {
-  max-width: 1296px; }
-  .container-contactUs {
-    max-width: 636px; }
+@media (max-width: 991.98px) {
+  .social li {
+    margin-right: 0px;
+    margin-left: 16px; } }
+
+.container-contactUs {
+  max-width: 636px; }
+  @media (max-width: 991.98px) {
+    .container-contactUs {
+      max-width: 576px; } }
 
 .banner {
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center; }
 
 .feature img {
   width: 100px; }
 
 .feature-list-card {
-  width: 25%; }
+  width: 20%; }
+  @media (max-width: 991.98px) {
+    .feature-list-card {
+      width: 40%;
+      margin-right: 0; }
+      .feature-list-card .h6 {
+        -moz-text-align-last: left;
+             text-align-last: left; } }
+
+.classic img {
+  width: 336px; }
 
 .classic-list-card {
-  width: 33.3%; }
+  width: 30%; }
+  @media (max-width: 991.98px) {
+    .classic-list-card {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 24px; } }
 
 .co-branding {
   background-size: cover; }
+  .co-branding-list-card {
+    width: 50%;
+    margin-bottom: 24px; }
+    @media (max-width: 991.98px) {
+      .co-branding-list-card {
+        width: 80%; } }
 
 .recommendation-list-card {
-  width: 25%;
+  width: 23%;
   border-radius: 1%;
   -webkit-box-shadow: 0px 2px 6px #000000;
           box-shadow: 0px 2px 6px #000000; }
+  @media (max-width: 991.98px) {
+    .recommendation-list-card {
+      width: 45%;
+      margin-bottom: 24px;
+      margin-right: 0; } }
 
 /*# sourceMappingURL=all.css.map */
