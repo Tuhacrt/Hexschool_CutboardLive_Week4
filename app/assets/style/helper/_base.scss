@@ -20,3 +20,10 @@ body {
   line-height: $line-height-base;
   font-family: $font-family-base;
 }
+
+.container {
+  max-width: 1296px;
+  @include lg {
+    max-width: 696px;
+  }
+}
