@@ -1,6 +1,6 @@
 # 網頁切版直播班 第四週任務
 
-- [Github pages](https://tuhacrt.github.io/Hexschool_CutboardLive_Week4/`)
+- [Github pages](https://tuhacrt.github.io/Hexschool_CutboardLive_Week4/)
 
 > 使用 gulp 需要使用的指令
 
