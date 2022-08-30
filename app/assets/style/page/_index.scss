@@ -3,6 +3,9 @@
   @include lg {
     max-width: 576px;
   }
+  @include md {
+    max-width: 348px;
+  }
 }
 
 .banner {
@@ -22,6 +25,9 @@
       .h6 {
         text-align-last: left;
       }
+    }
+    @include md {
+      width: 100%;
     }
   }
 }
@@ -46,7 +52,10 @@
     width: 50%;
     margin-bottom: 24px;
     @include lg {
-      width: 80%;
+      width: 90%;
+    }
+    @include md {
+      width: 100%;
     }
   }
 }
@@ -58,8 +67,23 @@
     box-shadow: 0px 2px 6px #000000;
     @include lg {
       width: 45%;
-      margin-bottom: 24px;
       margin-right: 0;
+      margin-bottom: 24px;
+    }
+    @include md {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+  }
+}
+.contactUs-list-card {
+  @include lg {
+    padding: 0;
+    button {
+      padding-left: calc(40%);
+      padding-right: calc(40%);
+      width: auto;
     }
   }
 }

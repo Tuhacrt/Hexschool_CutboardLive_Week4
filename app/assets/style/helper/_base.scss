@@ -26,4 +26,7 @@ body {
   @include lg {
     max-width: 696px;
   }
+  @include md {
+    max-width: 348px;
+  }
 }

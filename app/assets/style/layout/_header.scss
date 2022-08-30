@@ -1,11 +1,28 @@
 .logo {
   img {
     width: 80px;
+    height: auto;
   }
 }
 
-nav {
+.nav-lg {
   li a {
     padding: 25px 0;
   }
+  @include md {
+    display: none;
+  }
+}
+
+.nav-md {
+  display: none;
+  @include md {
+    display: block;
+    line-height: 77px;
+  }
+}
+
+.ham-icon {
+  //position: absolute;
+  color: #ffffff;
 }
