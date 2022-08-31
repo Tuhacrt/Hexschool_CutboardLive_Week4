@@ -1,0 +1,64 @@
+label {
+  white-space: nowrap;
+}
+
+select {
+  padding-left: 8px;
+  padding-right: calc(32% - 8px - 64px - 16px - 68px - 8px);
+
+  @include lg {
+    padding-right: calc(49% - 8px - 64px - 16px - 68px - 8px);
+  }
+
+  @include md {
+    padding-right: calc(100% - 8px - 64px - 16px - 68px - 8px);
+  }
+}
+
+.store {
+  @include md {
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+}
+
+.areaChoose {
+  @include md {
+    margin-bottom: 32px;
+  }
+}
+
+.store-title {
+  border-left: 8px solid map-get($map: $colorSet, $key: primary);
+  padding-left: 16px;
+  @include md {
+    margin-bottom: 24px;
+  }
+}
+
+.store-list-card {
+  width: 32%;
+  img {
+    width: auto;
+  }
+  div {
+    border: 1px solid #aaa;
+    border-top: 0;
+  }
+
+  @include lg {
+    width: 49%;
+  }
+
+  @include md {
+    width: 98%;
+  }
+}
+
+.m-r-col-1 {
+  margin-right: calc(32% + 24px);
+
+  @include md {
+    margin-right: 0;
+  }
+}

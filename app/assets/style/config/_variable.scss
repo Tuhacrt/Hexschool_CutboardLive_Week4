@@ -168,6 +168,14 @@ $padding-direction: (
       padding-top: 296px;
       padding-bottom: 296px;
     }
+    &1 {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    &2 {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
   }
   &x- {
     &12px {
@@ -181,6 +189,10 @@ $padding-direction: (
     &176px {
       padding-left: 176px;
       padding-right: 176px;
+    }
+    &3 {
+      padding-left: 24px;
+      padding-right: 24px;
     }
   }
 }
